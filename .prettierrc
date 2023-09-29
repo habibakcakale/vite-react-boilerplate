@@ -1,0 +1,22 @@
+{
+  "overrides": [
+    {
+      "files": ["*.js", "*.ts", "*.jsx", "*.tsx"],
+      "options": {
+        "trailingComma": "all",
+        "tabWidth": 4,
+        "semi": false,
+        "singleQuote": true,
+        "printWidth": 80
+      }
+    },
+    {
+      "files": ["*.yaml", "*.yml"],
+      "options": {
+        "tabWidth": 4,
+        "singleQuote": false,
+        "useTabs": false
+      }
+    }
+  ]
+}
